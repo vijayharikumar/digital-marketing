@@ -1,6 +1,8 @@
 # === Text files ===
 * text=auto
-
+* text eol=lf
+* text=auto
+* text eol=lf
 # === Binary files (e.g. images) ===
 *.png binary
 *.jpg binary
@@ -8,6 +10,7 @@
 *.gif binary
 *.webp binary
 *.svg binary
+*.pdf binary
 
 # === Code files ===
 *.js     text diff=javascript
