@@ -105,7 +105,7 @@ const MarketerSection = () => {
           >
           
             <motion.img
-              src="Text-Book.avif"
+              src="Text-Book.png"
               alt="Banner Design"
               className="w-full h-full object-cover rounded-xl"
               whileHover={{ scale: 1.05, rotate: 1 }}
