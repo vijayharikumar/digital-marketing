@@ -1,0 +1,34 @@
+# === Text files ===
+* text=auto
+
+# === Binary files (e.g. images) ===
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg binary
+
+# === Code files ===
+*.js     text diff=javascript
+*.jsx    text diff=javascript
+*.ts     text diff=typescript
+*.tsx    text diff=typescript
+*.json   text
+*.html   text
+*.css    text
+*.scss   text
+*.md     text
+
+# === Shell scripts with LF line endings ===
+*.sh     text eol=lf
+
+# === Lock files (prevent complex merge conflicts) ===
+package-lock.json merge=union
+yarn.lock         merge=union
+pnpm-lock.yaml    merge=union
+
+# === GitHub linguist ===
+# Mark build output as generated so GitHub ignores it in language stats
+dist/* linguist-generated
+build/* linguist-generated
