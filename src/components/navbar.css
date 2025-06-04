@@ -21,11 +21,11 @@
 .animated-underline::after {
   content: '';
   position: absolute;
-  bottom: -2px;
   left: 0;
-  height: 2px;
+  bottom: -1.5px; /* smaller offset */
+  height: 1.5px;
   width: 0%;
-  background-color: #6366f1; /* indigo-500 */
+  background-color: #6366f1;
   transition: all 0.3s ease-in-out;
 }
 

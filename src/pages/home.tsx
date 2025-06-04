@@ -6,11 +6,12 @@ import ClientSection from "../components/client-section";
 import ContactSection from "../components/contact-section";
 import MembersSection from "../components/members.section";
 import PromoSection from "../components/promo-section";
+import GetInTouch from "../components/get-in-touch";
 import Footer from "../components/footer";
 
 const Home = () => {
   return (
-    <div className="font-sans max-w-[1440px] mx-auto">
+    <div className="font-sans mx-auto">
       <HeroSection />
       <ServiceSection />
       <MarketerSection />
@@ -19,6 +20,7 @@ const Home = () => {
       <ContactSection />
       <MembersSection />
       <PromoSection />
+      <GetInTouch />
       <Footer />
     </div>
   );

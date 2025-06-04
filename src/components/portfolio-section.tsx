@@ -58,6 +58,7 @@ const PortfolioSection = () => {
                   className="w-full bg-neutral-200 h-44 lg:h-64 rounded-lg md:rounded-[10px] overflow-hidden"
                 >
                   <img
+                    style={{ cursor: "pointer" }}
                     className="w-full h-full object-cover"
                     src={`/image/portfolio/image-${id}.png`}
                     alt={`Project ${id}`}
@@ -87,6 +88,7 @@ const PortfolioSection = () => {
                   className="w-full bg-neutral-200 h-44 lg:h-64 rounded-lg md:rounded-[10px] overflow-hidden"
                 >
                   <img
+                    style={{ cursor: "pointer" }}
                     className="w-full h-full object-cover"
                     src={`/image/portfolio/image-${img.id}.png`}
                     alt={`Project ${img.id}`}
