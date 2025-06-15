@@ -10,12 +10,12 @@ const GetInTouch = () => {
         message: "",
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: any) => {
         const { name, value } = e.target;
         setForm({ ...form, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: any) => {
         e.preventDefault();
         alert("Message submitted!");
     };
@@ -86,7 +86,7 @@ const GetInTouch = () => {
                     <textarea
                         name="message"
                         placeholder="Type your message..."
-                        rows="5"
+                        rows={5}
                         value={form.message}
                         onChange={handleChange}
                         required
