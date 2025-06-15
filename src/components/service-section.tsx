@@ -27,21 +27,21 @@ const serviceData = [
     tooltip: "Data-driven ad strategies to scale your business profitably.",
   },
   {
-    img: "/image/1.svg",
+    img: "/image/email-marketing.svg",
     title: "Conversion Rate Optimization",
     description:
       "Refine user journeys and A/B test designs to increase your website's conversion rate.",
     tooltip: "Maximize every visitor’s potential with data-backed UX improvements.",
   },
   {
-    img: "/image/2.svg",
+    img: "/image/ads-marketing.svg",
     title: "SEO & Content Strategy",
     description:
       "Climb search rankings with expert SEO techniques and high-quality content planning.",
     tooltip: "Organic visibility that keeps compounding over time.",
   },
   {
-    img: "/image/3.svg",
+    img: "/image/landing-page.svg",
     title: "Social Media Management",
     description:
       "Build a loyal community and consistent brand presence across all social platforms.",
